@@ -1,0 +1,689 @@
+
+.header {
+    background: url(./images/shutterstock.png) no-repeat;
+    opacity: 0.9;
+    opacity: 1;
+    padding: 0 150px;
+    background-color: black;
+}
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #20ff00;
+    padding-top: 67px;
+    margin: 0 !important;
+}
+
+.sub-heading {
+    font-family: 'Poppins medium', sans-serif;
+    color: #fff;
+}
+.nav-bar {
+    position: relative;
+}
+
+.nav-icon {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon-left {
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-right {
+    margin-left: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+#icon-l {
+    font-size: 26px;
+    margin-right: 10px;
+    color: #efb236;
+    position: absolute;
+    right: 0;
+    left: 32px;
+    top: 16px;
+    bottom: 0;
+}
+
+#icon-r {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #efb236;
+    position: absolute;
+    right: 0;
+    left: 208px;
+    top: 16px;
+    bottom: 0;
+}
+.icon-text {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.banner-heading {
+    padding-top: 85px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-text {
+    padding-top: 40px;
+}
+
+#quote-button {
+    margin: 50px 0 175px 0;
+}
+
+.header-bar {
+    background: #ece8e8;
+    padding: 30px 50px;
+}
+
+.bar-icons {
+    display: flex;
+    border-right: 1px solid #d2cfcf;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-iconb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bar-font {
+    font-size: 35px;
+    color: #efb236;
+    margin-right: 20px;
+}
+
+.bar-text {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.about-us {
+    position: relative;
+    background: #f8f3f3dc;
+    padding: 120px 0;
+}
+
+.box-move {
+    position: relative;
+}
+
+.about-box {
+    position: absolute;
+    bottom: -39px;
+    left: 515px;
+    right: 0;
+}
+
+.about-title {
+    color: #efb236;
+    font-family: 'Poppins Regular', sans-serif;
+}
+
+.about-hr {
+    color: #efb236;
+    width: 42px;
+}
+.about-us-left {
+    padding: 0 150px 0 60px;
+}
+
+.about-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 30px;
+    line-height: 45px;
+}
+
+.about-text {
+    padding-bottom: 50px;
+    line-height: 26px;
+}
+
+#learn-more {
+    padding: 8px 30px;
+}
+
+.services {
+    background: #ebe6e6;
+    padding: 80px 154px;
+    position: relative;
+}
+.services-card {
+    display: flex;
+    position: relative;
+}
+
+.services-title {
+    color: gray;
+}
+
+.services-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+#btn-black-one {
+    transform: rotate(-90deg);
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 270px;
+    left: 171px;
+    right: 0;
+}
+#btn-black-one:hover {
+    Background-color: #efb236 !important;
+}
+
+#btn-black-two {
+    transform: rotate(-90deg);
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 268px;
+    left: 466px;
+    right: 0;
+}
+#btn-black-two:hover {
+    Background-color: #efb236 !important;
+}
+
+#btn-black-three {
+    transform: rotate(-90deg);
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 286px;
+    left: 782px;
+    right: 0;
+}
+#btn-black-three:hover {
+    Background-color: #efb236 !important;
+}
+
+.fourth-img {
+    position: relative;
+}
+
+#btn-black-four {
+    transform: rotate(-90deg);
+    padding: 8px 25px;
+    position: absolute;
+    left: 1065px;
+    right: 0;
+    top: 43px;
+}
+#btn-black-four:hover {
+    Background-color: #efb236 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1300px ) {
+
+    .header {
+        padding: 0 93px;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-us-left {
+        padding: 0 35px 0 76px;
+    }
+
+    .about-box {
+        position: absolute;
+        bottom: -39px;
+        left: 466px;
+        right: 0;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 41px 20px;
+        position: relative;
+    }
+
+    #btn-black-two {
+        transform: rotate(-90deg);
+        padding: 8px 25px;
+        position: absolute;
+        bottom: 268px;
+        left: 449px;
+        right: 0;
+    }
+
+    #btn-black-three {
+        transform: rotate(-90deg);
+        padding: 8px 25px;
+        position: absolute;
+        bottom: 287px;
+        left: 747px;
+        right: 0;
+    }
+
+    #btn-black-four {
+        transform: rotate(-90deg);
+        padding: 8px 14px;
+        position: absolute;
+        left: 1029px;
+        right: 0;
+        top: 25px;
+    }
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+    .header {
+        padding: 0px;
+    }
+
+    .icon-left {
+        margin-left: 0;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-right {
+        margin-left: 12px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon-l {
+        font-size: 26px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 11px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    #icon-r {
+        font-size: 25px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 151px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-us-left {
+        padding: 0 35px 0 76px;
+    }
+
+    .about-box {
+        position: absolute;
+        bottom: -39px;
+        left: 382px;
+        right: 0;
+    }
+
+    .about-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 11px;
+        line-height: 36px;
+        font-size: 25px;
+    }
+
+    .about-text {
+        padding-bottom: 41px;
+        line-height: 19px;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 41px 20px;
+        position: relative;
+    }
+
+    .btn-dark {
+        transform: none !important;
+        position: revert !important;
+    }
+
+
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .header {
+        padding: 0px;
+    }
+
+    .icon-left {
+        margin-left: 0;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-right {
+        margin-left: 12px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon-l {
+        font-size: 26px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 11px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    #icon-r {
+        font-size: 25px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 151px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-us-left {
+        padding: 0 35px 0 76px;
+    }
+
+    .about-box {
+        position: absolute;
+        bottom: -39px;
+        left: 382px;
+        right: 0;
+    }
+
+    .about-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 11px;
+        line-height: 36px;
+        font-size: 25px;
+    }
+
+    .about-text {
+        padding-bottom: 41px;
+        line-height: 19px;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 41px 20px;
+        position: relative;
+    }
+
+    .btn-dark {
+        transform: none !important;
+        position: revert !important;
+    }
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+    
+    .header {
+        padding: 0px;
+    }
+
+    .icon-left {
+        margin-left: 0;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-right {
+        margin-left: 12px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon-l {
+        font-size: 26px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 11px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    #icon-r {
+        font-size: 25px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 151px;
+        top: 16px;
+        bottom: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-us-left {
+        padding: 0 35px 0 76px;
+    }
+
+    .about-box {
+        position: absolute;
+        bottom: -39px;
+        left: 382px;
+        right: 0;
+    }
+
+    .about-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 11px;
+        line-height: 36px;
+        font-size: 25px;
+    }
+
+    .about-text {
+        padding-bottom: 41px;
+        line-height: 19px;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 41px 20px;
+        position: relative;
+    }
+
+    .btn-dark {
+        transform: none !important;
+        position: revert !important;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .heading {
+
+        padding-top: 35px;
+        margin: 0 !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .sub-heading {
+        font-family: 'Poppins medium', sans-serif;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .banner-heading {
+        padding-top: 0px;
+    }
+    .header {
+        padding: 0px;
+    }
+
+    .about-us-left {
+        padding: 0 !important;
+    }
+
+    .icon-left {
+        margin-left: 0;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-right {
+        margin-left: 12px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon-l {
+        display: none;
+    }
+
+    #icon-r {
+        display: none;
+    }
+    .icon-left {
+        display: none;
+    }
+
+    .icon-right {
+        display: none;
+    }
+
+    .icon-text {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-us-left {
+        padding: 0 35px 0 76px;
+    }
+
+    .about-box {
+        display: none;
+    }
+
+    .about-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 11px;
+        line-height: 36px;
+        font-size: 25px;
+    }
+
+    .about-text {
+        padding-bottom: 41px;
+        line-height: 19px;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 0;
+        position: relative;
+    }
+
+    .btn-dark {
+        transform: none !important;
+        position: revert !important;
+    }
+}
