@@ -180,14 +180,16 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
+
 #btn-black-one {
     transform: rotate(-90deg);
     padding: 8px 25px;
     position: absolute;
-    bottom: 270px;
-    left: 171px;
+    bottom: 350px;
+    left: 326px;
     right: 0;
 }
+
 #btn-black-one:hover {
     Background-color: #efb236 !important;
 }
@@ -196,10 +198,11 @@
     transform: rotate(-90deg);
     padding: 8px 25px;
     position: absolute;
-    bottom: 268px;
-    left: 466px;
+    bottom: 349px;
+    left: 627px;
     right: 0;
 }
+
 #btn-black-two:hover {
     Background-color: #efb236 !important;
 }
@@ -208,10 +211,11 @@
     transform: rotate(-90deg);
     padding: 8px 25px;
     position: absolute;
-    bottom: 286px;
-    left: 782px;
+    bottom: 367px;
+    left: 949px;
     right: 0;
 }
+
 #btn-black-three:hover {
     Background-color: #efb236 !important;
 }
@@ -224,10 +228,11 @@
     transform: rotate(-90deg);
     padding: 8px 25px;
     position: absolute;
-    left: 1065px;
+    left: 1236px;
     right: 0;
-    top: 43px;
+    top: 300px;
 }
+
 #btn-black-four:hover {
     Background-color: #efb236 !important;
 }
