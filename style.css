@@ -8,7 +8,7 @@
 }
 .heading {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     color: #20ff00;
     padding-top: 67px;
     margin: 0 !important;
@@ -58,7 +58,7 @@
 #icon-r {
     font-size: 25px;
     margin-right: 10px;
-    color: #efb236;
+    color: #efb236; 
     position: absolute;
     right: 0;
     left: 208px;
@@ -74,6 +74,8 @@
 .banner-heading {
     padding-top: 85px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.0rem;
 }
 
 .banner-text {
@@ -82,11 +84,12 @@
 
 #quote-button {
     margin: 50px 0 175px 0;
+    padding: 10px 28px;
 }
 
 .header-bar {
     background: #ece8e8;
-    padding: 30px 50px;
+    padding: 30px 249px;
 }
 
 .bar-icons {
@@ -291,6 +294,15 @@
         right: 0;
     }
 
+    .about-title {
+        margin-bottom: 0 !important;
+    }
+
+    .about-hr {
+        margin-top: 0 !important;
+        width: 42px;
+        height: 2px !important;
+    }
     .services {
         background: #ebe6e6;
         padding: 41px 20px;
@@ -385,6 +397,10 @@
         font-size: 12px;
     }
 
+    .header-bar {
+        padding: 30px 117px;
+    }
+
     .about-us {
         padding: 70px 0;
     }
@@ -438,16 +454,16 @@
     .icon-left {
         margin-left: 0;
         border: 1px solid white;
-        border-radius: 50px;
-        width: 50px;
+        border-radius: 49px;
+        width: 63px;
         height: 50px;
     }
 
     .icon-right {
-        margin-left: 12px;
+        margin-left: 0px;
         border: 1px solid white;
-        border-radius: 50px;
-        width: 50px;
+        border-radius: 46px;
+        width: 66px;
         height: 50px;
     }
 
@@ -468,7 +484,7 @@
         color: #efb236;
         position: absolute;
         right: 0;
-        left: 151px;
+        left: 121px;
         top: 16px;
         bottom: 0;
     }
@@ -476,6 +492,10 @@
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
         font-size: 12px;
+    }
+
+    .header-bar {
+        padding: 30px 0;
     }
 
     .about-us {
@@ -489,7 +509,7 @@
     .about-box {
         position: absolute;
         bottom: -39px;
-        left: 382px;
+        left: 268px;
         right: 0;
     }
 
@@ -497,13 +517,14 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 800;
         padding-bottom: 11px;
-        line-height: 36px;
-        font-size: 25px;
+        line-height: 24px;
+        font-size: 18px;
     }
 
     .about-text {
-        padding-bottom: 41px;
-        line-height: 19px;
+        padding-bottom: 22px;
+        line-height: 17px;
+        font-size: 12px;
     }
 
     .services {
@@ -515,6 +536,7 @@
     .btn-dark {
         transform: none !important;
         position: revert !important;
+        margin: 0 0 20px 48px;
     }
 
 
@@ -522,98 +544,6 @@
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 768px) {
-    
-    .header {
-        padding: 0px;
-    }
-
-    .icon-left {
-        margin-left: 0;
-        border: 1px solid white;
-        border-radius: 50px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .icon-right {
-        margin-left: 12px;
-        border: 1px solid white;
-        border-radius: 50px;
-        width: 50px;
-        height: 50px;
-    }
-
-    #icon-l {
-        font-size: 26px;
-        margin-right: 10px;
-        color: #efb236;
-        position: absolute;
-        right: 0;
-        left: 11px;
-        top: 16px;
-        bottom: 0;
-    }
-
-    #icon-r {
-        font-size: 25px;
-        margin-right: 10px;
-        color: #efb236;
-        position: absolute;
-        right: 0;
-        left: 151px;
-        top: 16px;
-        bottom: 0;
-    }
-
-    .navbar-expand-lg .navbar-nav {
-        flex-direction: row;
-        font-size: 12px;
-    }
-
-    .about-us {
-        padding: 70px 0;
-    }
-
-    .about-us-left {
-        padding: 0 35px 0 76px;
-    }
-
-    .about-box {
-        position: absolute;
-        bottom: -39px;
-        left: 382px;
-        right: 0;
-    }
-
-    .about-heading {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 800;
-        padding-bottom: 11px;
-        line-height: 36px;
-        font-size: 25px;
-    }
-
-    .about-text {
-        padding-bottom: 41px;
-        line-height: 19px;
-    }
-
-    .services {
-        background: #ebe6e6;
-        padding: 41px 20px;
-        position: relative;
-    }
-
-    .btn-dark {
-        transform: none !important;
-        position: revert !important;
-    }
-
-}
-
-/* Landscape phones and smaller */
-@media (max-width: 480px) {
-
     .heading {
 
         padding-top: 35px;
@@ -632,6 +562,127 @@
     .banner-heading {
         padding-top: 0px;
     }
+
+    .header {
+        padding: 0px;
+    }
+
+
+    .about-us-left {
+        padding: 0 !important;
+    }
+
+    
+   
+
+    #icon-l {
+        display: none;
+    }
+
+    #icon-r {
+        display: none;
+    }
+    .icon-left {
+        display: none;
+    }
+
+    .icon-right {
+        display: none;
+    }
+
+    .icon-text {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .header-bar {
+        padding: 30px 0;
+    }
+
+    .bar-icons {
+        border-right: none;
+    }
+
+    .about-us {
+        padding: 70px 0;
+    }
+
+    .about-box {
+        position: absolute;
+        bottom: 16px;
+        left: 321px;
+        right: 0;
+    }
+
+    .about-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 11px;
+        line-height: 36px;
+        font-size: 25px;
+    }
+
+    .about-text {
+        padding-bottom: 41px;
+        line-height: 19px;
+    }
+
+    .services {
+        background: #ebe6e6;
+        padding: 41px 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    .btn-dark {
+        transform: none !important;
+        position: revert !important;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .heading {
+        font-size: 2.5rem;
+        padding-top: 35px;
+        margin: 0 !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .sub-heading {
+        font-family: 'Poppins medium', sans-serif;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .banner-heading {
+        padding-top: 0px;
+        font-size: 2.0rem;
+    }
+
+    .banner-text {
+        padding-top: 15px;
+    }
+
+    #quote-button {
+        margin: 50px 0 80px 0;
+        padding: 10px 62px;
+    }
+
     .header {
         padding: 0px;
     }
@@ -680,6 +731,14 @@
         font-size: 12px;
     }
 
+    .header-bar {
+        padding: 30px 0;
+    }
+
+    .bar-icons {
+        border-right: none;
+    }
+
     .about-us {
         padding: 70px 0;
     }
@@ -709,10 +768,12 @@
         background: #ebe6e6;
         padding: 0;
         position: relative;
+        text-align: center;
     }
 
     .btn-dark {
         transform: none !important;
         position: revert !important;
+        margin: 0 0 20px 0;
     }
 }
