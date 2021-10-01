@@ -8,7 +8,7 @@
 }
 .heading {
     font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     color: #20ff00;
     padding-top: 67px;
     margin: 0 !important;
@@ -258,7 +258,7 @@
 @media (min-width: 1200px) and (max-width: 1300px ) {
 
     .header {
-        padding: 0 93px;
+        padding: 0 70px;
     }
 
     .about-us {
@@ -267,6 +267,21 @@
 
     .about-us-left {
         padding: 0 35px 0 76px;
+    }
+
+    .icon-right {
+        margin-left: 17px;
+    }
+
+    #icon-r {
+        font-size: 25px;
+        margin-right: 10px;
+        color: #efb236;
+        position: absolute;
+        right: 0;
+        left: 176px;
+        top: 16px;
+        bottom: 0;
     }
 
     .about-box {
@@ -282,12 +297,21 @@
         position: relative;
     }
 
+    #btn-black-one {
+        transform: rotate(-90deg);
+        padding: 8px 25px;
+        position: absolute;
+        bottom: 298px;
+        left: 193px;
+        right: 0;
+    }
+
     #btn-black-two {
         transform: rotate(-90deg);
         padding: 8px 25px;
         position: absolute;
-        bottom: 268px;
-        left: 449px;
+        bottom: 296px;
+        left: 476px;
         right: 0;
     }
 
@@ -295,8 +319,8 @@
         transform: rotate(-90deg);
         padding: 8px 25px;
         position: absolute;
-        bottom: 287px;
-        left: 747px;
+        bottom: 316px;
+        left: 780px;
         right: 0;
     }
 
@@ -304,9 +328,9 @@
         transform: rotate(-90deg);
         padding: 8px 14px;
         position: absolute;
-        left: 1029px;
+        left: 1048px;
         right: 0;
-        top: 25px;
+        top: 238px;
     }
 
 }
