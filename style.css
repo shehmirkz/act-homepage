@@ -287,6 +287,24 @@
     margin-left: 10px;
 }
 
+.projects {
+    background: #383838;
+}
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel img {
+  display: block;
+  height: 600px;
+}
 
 
 
@@ -621,6 +639,10 @@
         margin-left: 33px;
     }
 
+    .carousel img {
+        height: 750px;
+    }
+      
 
 }
 
