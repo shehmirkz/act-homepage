@@ -905,7 +905,8 @@ body { font-family: sans-serif; }
     .btn-dark {
         transform: none !important;
         position: revert !important;
-        margin: 0 0 20px 0;
+        margin: 2px 0 40px 0;
+        padding: 9px 72px !important;
     }
 
     .card-section {
