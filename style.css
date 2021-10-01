@@ -864,11 +864,15 @@ body { font-family: sans-serif; }
     .about-us {
         padding: 70px 0;
     }
-
-    .about-us-left {
-        padding: 0 35px 0 76px;
+    .about-title {
+        margin-top: 50px;
+        text-align: center;
     }
-
+    .about-hr {
+        margin-left: 107px;
+        width: 100px;
+        margin-top: 0 !important;
+    }
     .about-box {
         display: none;
     }
@@ -884,6 +888,11 @@ body { font-family: sans-serif; }
     .about-text {
         padding-bottom: 41px;
         line-height: 19px;
+    }
+
+    #learn-more {
+        padding: 8px 54px;
+        margin-left: 72px;
     }
 
     .services {
