@@ -869,7 +869,7 @@ body { font-family: sans-serif; }
         text-align: center;
     }
     .about-hr {
-        margin-left: 107px;
+        margin-left: 114px;
         width: 100px;
         margin-top: 0 !important;
     }
@@ -891,8 +891,8 @@ body { font-family: sans-serif; }
     }
 
     #learn-more {
-        padding: 8px 54px;
-        margin-left: 72px;
+        padding: 8px 54px !important;
+        margin-left: 71px;
     }
 
     .services {
