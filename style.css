@@ -139,11 +139,13 @@
 .about-title {
     color: #efb236;
     font-family: 'Poppins Regular', sans-serif;
+    margin-bottom: 0;
 }
 
 .about-hr {
     color: #efb236;
     width: 42px;
+    margin-top: 0;
 }
 .about-us-left {
     padding: 0 150px 0 60px;
@@ -306,6 +308,48 @@ body { font-family: sans-serif; }
   height: 600px;
 }
 
+.testimonial {
+    padding: 100px 193px;
+}
+
+.testimonial, .backgroung-text{
+    position: relative;
+}
+.backgroung-text:before{
+    content: attr(title);
+    font-size: 1000px;
+    color: #fcebc129;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    z-index: -1;
+    display: inline-block;
+}
+
+.card-insideb {
+    padding-top: 52px !important;
+}
+
+.clients-img {
+    position: relative;
+    top: 39px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.card-b {
+    border: 2px solid #e1e0dc !important;
+    border-radius: 11px !important;
+}
+
+.card-a {
+    border: 1px solid #e1e0dc !important;
+    box-shadow: 5px 4px 24px 0px #e1e0dc !important;
+    border-radius: 11px !important;
+}
 
 
 
@@ -520,6 +564,14 @@ body { font-family: sans-serif; }
         line-height: 22px;
     }
 
+    .testimonial {
+        padding: 100px 68px;
+    }
+
+
+
+
+
 
   
 }
@@ -642,6 +694,10 @@ body { font-family: sans-serif; }
     .carousel img {
         height: 750px;
     }
+
+    .testimonial {
+        padding: 50px 5px;
+    }
       
 
 }
@@ -671,11 +727,9 @@ body { font-family: sans-serif; }
         padding: 0px;
     }
 
-
     .about-us-left {
         padding: 0 !important;
     }
-
     
     #icon-l {
         display: none;
@@ -731,11 +785,17 @@ body { font-family: sans-serif; }
         padding-bottom: 11px;
         line-height: 36px;
         font-size: 25px;
+        text-align: center;
+    }
+    #learn-more {
+        padding: 8px 70px;
+        margin-left: 119px;
     }
 
     .about-text {
         padding-bottom: 41px;
         line-height: 19px;
+        text-align: center;
     }
 
     .services {
@@ -748,7 +808,11 @@ body { font-family: sans-serif; }
     .btn-dark {
         transform: none !important;
         position: revert !important;
-        margin: 0 0 20px 0;
+        margin: 3px 0 31px 0;
+    }
+
+    .process-line {
+        margin-right: 100px;
     }
 
     .card-section {
@@ -769,6 +833,18 @@ body { font-family: sans-serif; }
     }
     .process-heading {
         margin-left: 33px;
+    }
+
+    .testimonial {
+        padding: 50px 0px;
+    }
+
+    .about-title {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .about-hr {
+        display: none;
     }
 
 }
@@ -936,5 +1012,19 @@ body { font-family: sans-serif; }
         margin-bottom: 0 !important;
         margin-top: 16px;
     }
+
+    .testimonial {
+        padding: 50px 0px;
+    }
+
+    .backgroung-text:before {
+        content: attr(title);
+        font-size: 779px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 93px;
+    }
+
 
 }
