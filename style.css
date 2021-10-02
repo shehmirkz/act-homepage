@@ -309,7 +309,7 @@ body { font-family: sans-serif; }
 }
 
 .testimonial {
-    padding: 100px 193px;
+    padding: 5px 193px;
 }
 
 .testimonial, .backgroung-text{
@@ -350,6 +350,65 @@ body { font-family: sans-serif; }
     box-shadow: 5px 4px 24px 0px #e1e0dc !important;
     border-radius: 11px !important;
 }
+
+#btn-white {
+    color: gray;
+    opacity: 0.5;
+    padding: 0px 46px;
+    font-size: 27px;
+    margin-left: 20px;
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+#btn-white:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.news {
+   padding: 50px 178px 0 178px;
+}
+
+.right-news {
+    padding: 100px 82px;
+}
+
+.align-card {
+    position: relative;
+}
+
+.left-card-a {
+    padding: 12px;
+}
+
+.left-card {
+    padding: 12px;
+    top: 22px;
+}
+
+.right-card {
+    bottom: 0;
+    padding: 12px;
+    top: 75px;
+}
+
+.right-card-b {
+    bottom: 0;
+    padding: 12px;
+    top: 98px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -451,6 +510,14 @@ body { font-family: sans-serif; }
         right: 0;
         top: 238px;
     }
+
+    .news {
+        padding: 50px 60px 0 60px;
+    }
+     
+     .right-news {
+         padding: 100px 82px;
+     }
 
 }
 
@@ -568,10 +635,13 @@ body { font-family: sans-serif; }
         padding: 100px 68px;
     }
 
-
-
-
-
+    .news {
+        padding: 50px 0 0 0;
+    }
+     
+     .right-news {
+         padding: 100px 40px;
+     }
 
   
 }
@@ -698,6 +768,22 @@ body { font-family: sans-serif; }
     .testimonial {
         padding: 50px 5px;
     }
+
+    .news {
+        padding: 50px 0 0 0;
+    }
+     
+     .right-news {
+         padding: 90px 20px;
+     }
+
+     .news {
+        padding: 50px 0 0 0;
+    }
+     
+     .right-news {
+         padding: 100px 40px;
+     }
       
 
 }
@@ -845,6 +931,26 @@ body { font-family: sans-serif; }
     }
     .about-hr {
         display: none;
+    }
+
+    .news {
+        padding: 50px 0 0 0;
+    }
+     
+    .right-news {
+        padding: 10px 5px;
+    }
+
+    .right-card-b {
+        bottom: 0;
+        padding: 12px;
+        top: 38px;
+    }
+
+    .right-card {
+        bottom: 0;
+        padding: 12px;
+        top: 11px;
     }
 
 }
@@ -1026,5 +1132,30 @@ body { font-family: sans-serif; }
         bottom: 93px;
     }
 
+    .news {
+        padding: 0 0 0 0;
+    }
+     
+     .right-news {
+         padding: 10px 0;
+     }
+
+     .right-card-b {
+        bottom: 0;
+        padding: 12px;
+        top: 38px;
+    }
+
+    .right-card-b {
+        bottom: 0;
+        padding: 12px;
+        top: 38px;
+    }
+
+    .right-card {
+        bottom: 0;
+        padding: 12px;
+        top: 11px;
+    }
 
 }
