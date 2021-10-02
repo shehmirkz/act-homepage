@@ -400,7 +400,89 @@ body { font-family: sans-serif; }
 }
 
 
+.membership {
+    padding: 130px 154px;
+}
 
+.membership-grid {
+    margin-top: 46px !important;
+}
+
+.membership-icon {
+    margin: 10px 0;
+    filter: grayscale(100%);
+    width: 50%;
+}
+
+
+.footer {
+    background: url(./images/shutterstock.png) no-repeat;
+    padding: 50px 258px 0 258px;
+}
+
+.footer-form {
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    color: #fff;
+}
+
+.recent-news {
+    padding-top: 87px;
+}
+
+.popular-links {
+    padding-top: 87px;
+}
+
+.footer-blank {
+    padding-top: 87px;
+}
+
+.first-ul {
+    list-style: none;
+    padding: 0;
+}
+.second-ul {
+    list-style: none;
+    padding: 0;
+}
+.third-ul {
+    list-style: none;
+    padding: 0;
+}
+.fourth-ul {
+    list-style: none;
+    padding: 0;
+    padding: 145px 0 0 0;
+}
+
+.footer-paragraph {
+    font-size: 13px;
+}
+
+#footer-right-icon {
+    font-size: 30px !important;
+    margin-right: 10px;
+    position: relative;
+    top: 11px;
+}
+
+.social-media {
+    font-size: 20px;
+}
+
+.social-media:hover {
+    color: #20ff00;
+}
+
+.copyright-text {
+    font-size: 10px;
+}
+
+.icon-arrow {
+    margin-right: 12px;
+}
 
 
 
@@ -643,6 +725,10 @@ body { font-family: sans-serif; }
          padding: 100px 40px;
      }
 
+     .footer {
+        padding: 30px 25px 0 25px;
+    }
+
   
 }
 
@@ -784,6 +870,14 @@ body { font-family: sans-serif; }
      .right-news {
          padding: 100px 40px;
      }
+
+     .membership-icon {
+        margin: 9px 0;
+        width: 100%;
+    }
+    .footer {
+        padding: 20px 0px 0 0px;
+    }
       
 
 }
@@ -791,7 +885,6 @@ body { font-family: sans-serif; }
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 768px) {
     .heading {
-
         padding-top: 35px;
         margin: 0 !important;
         align-items: center;
@@ -922,7 +1015,7 @@ body { font-family: sans-serif; }
     }
 
     .testimonial {
-        padding: 50px 0px;
+        padding: 27px 0 0 0;
     }
 
     .about-title {
@@ -935,6 +1028,14 @@ body { font-family: sans-serif; }
 
     .news {
         padding: 50px 0 0 0;
+    }
+
+    .services-heading {
+        text-align: center;
+    }
+
+    .services-title {
+        text-align: center;
     }
      
     .right-news {
@@ -951,6 +1052,39 @@ body { font-family: sans-serif; }
         bottom: 0;
         padding: 12px;
         top: 11px;
+    }
+
+    .membership {
+        padding: 102px 10px;
+    }
+
+    .membership-icon {
+        margin: 9px 0;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 20px 0px 0 0px;
+    }
+
+    .recent-news {
+        padding-top: 0px;
+    }
+
+    .third-ul {
+        display: none;
+    }
+
+    .fourth-ul {
+        display: none;
+    }
+
+    .copyright-hr {
+        display: none;
+    }
+
+    .last-grid {
+        display: none;
     }
 
 }
@@ -1108,7 +1242,8 @@ body { font-family: sans-serif; }
         line-height: 22px;
     }
     .process-heading {
-        margin-left: 33px;
+        margin-left: 0;
+        text-align: center;
     }
 
     .process-line {
@@ -1120,7 +1255,7 @@ body { font-family: sans-serif; }
     }
 
     .testimonial {
-        padding: 50px 0px;
+        padding: 27px 0 0 0;
     }
 
     .backgroung-text:before {
@@ -1136,6 +1271,14 @@ body { font-family: sans-serif; }
         padding: 0 0 0 0;
     }
      
+    .services-heading {
+        text-align: center;
+    }
+
+    .services-title {
+        text-align: center;
+    }
+
      .right-news {
          padding: 10px 0;
      }
@@ -1156,6 +1299,38 @@ body { font-family: sans-serif; }
         bottom: 0;
         padding: 12px;
         top: 11px;
+    }
+
+    .membership {
+        padding: 102px 10px;
+    }
+
+    .membership-icon {
+        margin: 9px 0;
+        width: 100%;
+    }
+    .footer {
+        padding: 20px 0px 0 0px;
+    }
+
+    .recent-news {
+        padding-top: 0px;
+    }
+
+    .third-ul {
+        display: none;
+    }
+
+    .fourth-ul {
+        display: none;
+    }
+
+    .copyright-hr {
+        display: none;
+    }
+
+    .last-grid {
+        display: none;
     }
 
 }
