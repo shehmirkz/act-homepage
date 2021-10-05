@@ -535,6 +535,14 @@ body { font-family: sans-serif; }
         bottom: 0;
     }
 
+    .icon-right-a {
+        margin-left: 19px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
     .about-box {
         position: absolute;
         bottom: -39px;
@@ -620,6 +628,14 @@ body { font-family: sans-serif; }
 
     .icon-right {
         margin-left: 12px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-right-a {
+        margin-left: 13px;
         border: 1px solid white;
         border-radius: 50px;
         width: 50px;
@@ -739,6 +755,14 @@ body { font-family: sans-serif; }
         padding: 0px;
     }
 
+    .sub-heading {
+        font-family: 'Poppins medium', sans-serif;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
     .icon-left {
         margin-left: 0;
         border: 1px solid white;
@@ -752,6 +776,14 @@ body { font-family: sans-serif; }
         border: 1px solid white;
         border-radius: 46px;
         width: 66px;
+        height: 50px;
+    }
+
+    .icon-right-a {
+        margin-left: 4px;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 64px;
         height: 50px;
     }
 
@@ -923,6 +955,10 @@ body { font-family: sans-serif; }
 
     .icon-right {
         display: none;
+    }
+
+    .icon-right-a {
+       display: none;
     }
 
     .icon-text {
