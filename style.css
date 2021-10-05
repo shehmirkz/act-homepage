@@ -1196,6 +1196,10 @@ body { font-family: sans-serif; }
         display: none;
     }
 
+    .icon-right-a {
+        display: none;
+     }
+
     .icon-text {
         display: none;
     }
